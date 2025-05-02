@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 
-        let resultado = n1+n2;
+        let resultado = Number(n1)  + Number(n2);
         console.log(resultado)
-        resultadoDiv.textContent  = `Resultado de la suma ${resultado}`;
+        resultadoDiv.textContent  = `Resultado de la suma: ${resultado}`;
         resultadoDiv.style.color = 'black';
     });
     
