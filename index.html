@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mis pruebas de JS</title>
     <link rel="stylesheet" href="Styles/Styles.css">
 </head>
 <body>
     <p>Hola mundo</p>
+    <nav>
+        <ul>
+            <li>
+                <a href="#articulo1">Articulo 1: calculadora</a>
+            </li>   
+            <li>
+                <a href="#articulo2">Articulo 2 Ingreso de nombres</a>
+            </li>
+            <li>
+                <a href="#articulo3">Articulo 3 botones de suma y resta </a>
+            </li>
+        
+        </ul>
+    </nav>
 
-
-    <article>
+    <article id="articulo1">
     <p>
             Esto es un articulo donde se podran colocar dos numeros y sumarlos.
     </p>
@@ -21,14 +34,11 @@
             <input type="submit" value="Calcular" id="btnEnviar">
        
 
-  <div id="resultado">
-
-                
-            </div>
+  <div id="resultado"> </div>
     </article>   
 
 
-    <article>
+    <article id="articulo2">
 
         <p>
             Eto es un articulo donde se colocara un nombre y un apellido y se devolvera un nombre completo 
@@ -44,15 +54,36 @@
 
 
 
-    <article>
+    <article id="articulo3">
         <p>
             En este articulo donde probare crear dos botones uno de '-' y otro de '+', para que al precionar uno sume '1' o reste '1' a un valor que se esta mostrando en pantalla 
         </p>
 
-        <input type="submit" value="-" name="" id="btnMenos">
+        <input type="submit" value="-" name="" id="btnMenos"/>
         <div id="valor1">1</div>
-        <input type="submit" value="+" name="" id="btnMas">
+        <input type="submit" value="+" name="" id="btnMas"/>
         
+
+        <input type="checkbox" name="" id=""/>
+        
+    </article>
+
+
+
+    <article>
+        <p>Aqui provare algunas etiquetas para los formularios</p>
+
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>Registro de usuatrios</legend>
+                <label for="">Nombre <input type="text"></label><br/>
+                <label for="">Apellido <input type="text"></label><br/>
+                <input type="submit" name="" value="Registrar" id="" class="inputs">
+            </fieldset>
+            
+
+        </form>
     </article>
     
     

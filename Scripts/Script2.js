@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const btnMas = document.getElementById('btnMas');
     const btnMenos = document.getElementById('btnMenos');
     const divValor =  document.getElementById('valor1');
-
+    divValor.style.color = 'black'
 /*
 Para obtener un valor de un imput se utiliza el .value 
 en caso de que el valor que quiero obtener este dentro de un div o de otra tipo de etiqueta html tengo que usar el .textContent
